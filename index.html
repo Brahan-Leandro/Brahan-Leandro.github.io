@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Brahan Leandro</title>
+		<link rel="stylesheet" type="text/css" href="fonts/style.css">
+		<link rel="icon" type="image/webp" href="logo.jpg">
+		<meta charset="utf-8" />
+		<!--<link rel="stylesheet" type="text/css" href="Responsive.css" media="screen and (max-width:768px)"> -->
+		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="proyecto_responsive.css">	
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+	</head>
+	<body>
+		<i class="icon-Menu burger_buttom" id="burger_menu"></i>
+		<header class="header">
+			<div class="container_header">
+				<figure class="logo">
+					<img src="pollo.webp" alt="Imagen de Brahan Leandro en https://brahan_leandro.com " width="100px" />
+				</figure>
+				<nav class="menu">
+					<ol>
+						<li>
+							<a class="link" href="#experiencia">Portafolio</a>
+						</li>
+						<li>
+							<a class="link" href="#eventos">Experiencia</a>
+						</li>
+						<li>
+							<a class="link" href="#contacto">Trabajemos juntos</a>
+						</li>
+					</ol>
+				</nav>					
+			</div>				
+		</header>
+		<section class="hero">
+			<div class="container_hero">
+				<H1>Hola soy <strong>  Brahan Leandro </strong> <br/> y me gusta el <strong>desarrollo frontend</strong> </H1>
+				 <!--ESTO VA COMENTADO <img src="lol.jpg" width="500px" height="300px" alt="imagen_principal"> -->	
+			</div>			
+		</section>	
+		<section id="experiencia" class="portfolio">
+			<div class="container">
+				<H2>Portafolio (proyectos destacados)</H2> 
+				<article class="project">
+					<div class="project_details">
+						<h3 class="project_title">Tabla peridodica de los fisicos</h3> 
+						<h6 class="project_course">Particulas elementales</h6>
+						<p class="project_date"><small><strong>Fecha:</strong>  04/07/2020 </small> </p>
+						<p class="project_url"><small><strong>Puedes verlo en:</strong>www.aqui_es.com/react </small> </p>
+						<p class="project_description">Aquí vamos a explicar de lo qu ese trato el proyecto </p>
+					</div>
+					<figure class="project_imageContainer">
+						<img class="project_image" src="tabla.jpg" width="300px" alt="Particulas elementales">
+					</figure>
+				</article>
+
+				<article class="project">
+					<div class="project_details">
+						<h3 class="project_title">Tabla peridodica de los fisicos</h3> 
+						<h6 class="project_course">Particulas elementales</h6>
+						<p class="project_date"><small><strong>Fecha:</strong>  04/07/2020 </small> </p>
+						<p class="project_url"><small><strong>Puedes verlo en:</strong>www.aqui_es.com/react </small> </p>
+						<p class="project_description">Aquí vamos a explicar de lo qu ese trato el proyecto </p>
+					</div>
+					<figure class="project_imageContainer">
+						<img class="project_image" src="tabla.jpg" width="300px" alt="Particulas elementales">
+					</figure>
+				</article>
+			</div>			
+		</section>
+		<div class="container">
+			<h2 class="event_list_title">Más sobre mi experiencia</h2>			
+		</div>		
+		<section id="eventos" class="event_list">
+			<div class="container_eventos">
+				<article class="event">
+					<figure class="event_imageContainer">
+						<img class="event_image" src="lol.jpg" width="500px" alt="Imagen de valen" />
+					</figure>
+					<div class="event_detail">
+						<h3 class="event_title">Universidad Surcolombiana</h3>
+						<p class="event_description">Descripción de la imagen</p>
+						<a class="event_url" href="Aqui va el link" target="_blank">Aquí se redirecciona</a>						
+					</div>				
+				</article>
+				<article class="event">
+					<figure class="event_imageContainer">
+						<iframe width="100%" height="286px" src="https://www.youtube.com/embed/Q3Ny5BOam2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<!--<img class="event_image" src="lol.jpg" width="500px" alt="Imagen de valen" />-->
+					</figure>
+					<div class="event_detail">
+						<h3 class="event_title">Universidad Surcolombiana</h3>
+						<p class="event_description">Descripción de la imagen</p>
+						<a class="event_url" href="Aqui va el link" target="_blank">Aquí se redirecciona</a>					
+					</div>				
+				</article>
+				<article class="event">
+					<figure class="event_imageContainer">
+						<img class="event_image" src="lol.jpg" width="500px" alt="Imagen de valen" />
+					</figure>
+					<div class="event_detail">
+						<h3 class="event_title">Universidad Surcolombiana</h3>
+						<p class="event_description">Descripción de la imagen</p>
+						<a class="event_url" href="Aqui va el link" target="_blank">Aquí se redirecciona</a>						
+					</div>				
+				</article>
+				<article class="event">
+					<figure class="event_imageContainer">
+						<img class="event_image" src="valen.jpg" style="max-width: -webkit-fill-available !important; object-position: top !important;" alt="Imagen de valen" />
+					</figure>
+					<div class="event_detail">
+						<h3 class="event_title">Universidad Surcolombiana</h3>
+						<p class="event_description">Descripción de la imagen</p>
+						<a class="event_url" href="Aqui va el link" target="_blank">Aquí se redirecciona</a>						
+					</div>				
+				</article>				
+			</div>			
+		</section>
+		<section class="contact" id="contacto">
+			<div class="container_contact">
+				<form class="for_email" action="/suscripcion/">
+					<h3>Enviame tu E-mail para estar en contacto</h3>
+					<input type="text" placeholder="Coloca aquí tu E-mail"  id="email" />
+					<button class="boton_enviar">Enviar</button>
+				</form>
+				<div class="social">
+					<a href="" class="social_link twitter"></a>
+					<a href="https://www.facebook.com/brahanleandro/" class="social_link facebook"></a>
+					<a href="" class="social_link github"></a>
+					<a href="" class="social_link instagram"></a>				
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container_footer">
+				<div>
+					<p>Curso de Desarrollo web on-line <br> <img width="80px" src="pollo.webp" alt="logo_inferior"> </p>
+				</div>
+				<div>
+					<p>Diseñado por Brahan Leandro</p>
+				</div>				
+			</div>
+		</footer>
+		<script type="text/javascript">
+			/*console.log('hola');*/
+		
+			const menu = document.querySelector('.menu');
+			console.log(menu);
+			const burger_buttom=document.querySelector('#burger_menu');
+			console.log(burger_buttom);
+			
+
+			burger_buttom.addEventListener('click', añadir);
+
+			/*function añadir()  ESTA ES OTRA MANERA DE HACERLO, UTILIZANDO EL TOGGLE QUE LO QUE DICE ES QUE SI NO LO TIENE PONLO Y SI YA LO TIENE QUITASELO
+			{
+				// body...
+				menu.classList.toggle('is_active');
+			}*/
+
+			function añadir()  
+			{
+				// body...
+				if (menu.classList.contains('is_active'))
+				{
+					menu.classList.remove('is_active');
+				}
+				else
+				{
+					menu.classList.add('is_active');	
+				}
+			}
+
+
+
+		</script>
+	</body>
+</html>
